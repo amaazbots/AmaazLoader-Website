@@ -1,4 +1,4 @@
-const DOWNLOAD_URL = "https://github.com/amaazbots/AmaazLoader/releases/download/v1.1.0/AmaazLoader-v1.1.0-Setup.exe";
+const DOWNLOAD_URL = "https://github.com/amaazbots/AmaazLoader/releases/download/v1.2.0/AmaazLoader-v1.2.0-Setup.exe";
 document.querySelectorAll("#releaseDownload").forEach(el => el.setAttribute("href", DOWNLOAD_URL));
 const observer = new IntersectionObserver(entries => entries.forEach(entry => {if(entry.isIntersecting){entry.target.animate([{opacity:0,transform:"translateY(22px)"},{opacity:1,transform:"translateY(0)"}],{duration:650,easing:"cubic-bezier(.2,.7,.2,1)",fill:"forwards"});observer.unobserve(entry.target)}}),{threshold:.12});
 document.querySelectorAll(".section-heading,.feature,.steps article,.security-card,.download-card,.faq details").forEach(el=>{el.style.opacity="0";observer.observe(el)});
