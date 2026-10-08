@@ -13,6 +13,6 @@ Expected URL: `https://amaazbots.github.io/AmaazLoader-Website/`
 
 ## Download button
 
-When the v1.0.0 installer is uploaded to GitHub Releases, replace `const DOWNLOAD_URL = "#";` inside `script.js` with the installer URL.
+The download button currently points to the public AmaazLoader v1.2.0 installer on GitHub Releases.
 
 © 2026 Amaazbots
