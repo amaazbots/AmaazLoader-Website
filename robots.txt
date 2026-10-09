@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amaazbots.github.io/AmaazLoader-Website/sitemap.xml
